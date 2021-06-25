@@ -1,0 +1,11 @@
+For testing reading a text file
+
+All output should be written to standard output (stdout). Your program should format its output exactly as shown
+above. Your program should terminate when it reaches the end of the input file (for example, when control-D is
+typed from the keyboard under UNIX). Your program must not output any user prompts, debugging information,
+status messages, extra white spaces, etc. Your outputs will be graded by comparing with a pre-generated output
+and any of these “extras” that your program outputs will incur a penalty in the grade.
+The purpose of this assignment is to get up to speed with protocol message parsing and the use of Linux program
+development tools. Note that, in the abstract, this assignment has nothin`g to do with networking and is just a
+simple text parsing problem. This assignment is, however, a useful first step in writing an HTTP protocol parser
+that must adhere to standards strictly.

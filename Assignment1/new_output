@@ -1,0 +1,27 @@
+GET /index.html HTTP/1.0
+Method = GET
+Request-URL = /index.html
+HTTP-Version = HTTP/1.0
+<!-- Used to test reading in html files -->
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>COMP431</h1>
+</body>
+</html>
+GET /index2.html HTTP/1.0
+Method = GET
+Request-URL = /index2.html
+HTTP-Version = HTTP/1.0
+404 Not Found: /index2.html
+GET /cat.png HTTP/1.0
+Method = GET
+Request-URL = /cat.png
+HTTP-Version = HTTP/1.0
+501 Not Implemented: /cat.png
+GET /hello_world.txt HTTP/2.2
+Method = GET
+Request-URL = /hello_world.txt
+HTTP-Version = HTTP/2.2
+hello world
